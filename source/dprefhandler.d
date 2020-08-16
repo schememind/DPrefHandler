@@ -13,6 +13,7 @@ initial value and default value.
 class DPrefHandler
 {
 private:
+    // TODO switch to dchar and dstring
     static const string ROW_PREFIX = ":::::";
     static const char EQSIGN = '=';
     static const string CFG_FILE_NAME = "config.ini";
