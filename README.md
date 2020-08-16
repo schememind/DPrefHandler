@@ -4,6 +4,15 @@
 Simple D language library for managing and storing of preferences of desktop applications (Windows, Linux, OS X)
 
 ## Usage
+### DUB
+Add dependency your project's DUB description file and perform `import dprefhandler;` in a module that would use it.
+#### dub.json format:
+```json
+"dependencies": {
+    "dprefhandler": "~>0.0.1"
+},
+```
+### Direct usage
 Copy `dprefhandler.d` source file into your project's directory and perform `import dprefhandler;` in a module that would use it.
 
 ## Build
