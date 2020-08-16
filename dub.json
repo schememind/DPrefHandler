@@ -1,0 +1,11 @@
+{
+	"name": "dprefhandler",
+	"authors": [
+		"Žans Kļimovičs"
+	],
+	"description": "Simple D language library for managing and storing of preferences of desktop applications on Windows, Linux and OS X.",
+	"copyright": "Copyright © 2020, Žans Kļimovičs",
+	"license": "MIT",
+	"targetType": "library",
+	"targetPath": "build"
+}
